@@ -4,6 +4,7 @@ html, body { touch-action: pan-x pan-y; height: 100%; overflow: hidden; font-fam
   position: relative;
   width: 100%;
   height: 100vh;
+  height: 100dvh;
   overflow: hidden;
 }
 .sidebar {
@@ -308,7 +309,6 @@ html, body { touch-action: pan-x pan-y; height: 100%; overflow: hidden; font-fam
   inset: 0;
   width: 100%;
   height: 100%;
-  min-height: 400px;
   touch-action: none;
 }
 .map-actions {
@@ -627,6 +627,7 @@ html, body { touch-action: pan-x pan-y; height: 100%; overflow: hidden; font-fam
     width: 280px;
     max-width: 80vw;
     height: 100vh !important;
+    height: 100dvh !important;
     border-radius: 0;
     border: none;
     border-right: 1px solid #e8e4df;
